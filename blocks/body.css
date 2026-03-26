@@ -5,6 +5,7 @@ body {
   background-color: rgb(201, 140, 192);
   margin: 0;
   padding: 0;
+  font-family: "WorkSans", Arial, Helvetica, sans-serif;
 }
 
 .body__image {
