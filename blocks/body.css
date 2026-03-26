@@ -1,4 +1,16 @@
-.body {
+body {
   width: 100%;
   height: 100vh;
+  position: relative;
+  background-color: rgb(201, 140, 192);
+  margin: 0;
+  padding: 0;
+}
+
+.body__image {
+  background-image: url(../assets/images/background-pattern-desktop.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
 }
