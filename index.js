@@ -8,12 +8,6 @@ faqOpenButtons.forEach((button) => {
       ".accordion__container",
     );
     containerTarget.classList.toggle("accordion-is-open");
-
-    console.log("cliquei");
-    console.log(clickedButton);
-    console.log(mainAccordion);
-    console.log(containerTarget);
-
     if (containerTarget.classList.contains("accordion-is-open")) {
       clickedButton.setAttribute("aria-expanded", "true");
     } else {

@@ -1,17 +1,15 @@
 .main {
-  max-width: 800px;
+  max-width: 680px;
 
-  margin: 150px auto;
-  padding: 20px;
+  margin: -100px auto 0px;
+  padding: 40px 60px;
   width: 100%;
 
+  position: relative;
+  z-index: 1;
+
   background-color: white;
-  border-radius: 40px;
+  border-radius: 20px;
 
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  box-shadow: 0 0 30px rgba(128, 0, 128, 0.552);
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.212);
 }
