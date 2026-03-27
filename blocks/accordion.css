@@ -4,7 +4,7 @@
   align-items: flex-start;
   gap: 0px;
   margin: 0px;
-  padding: 20px 0px;
+  padding: 25px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 
@@ -19,7 +19,9 @@
 
   font-family: "WorkSans", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+
+  text-align: left;
 
   display: flex;
   justify-content: space-between;
@@ -53,6 +55,7 @@
 
 .accordion__wrapper {
   overflow: hidden;
+  padding: 15px 0px 0px;
 }
 
 button[aria-expanded="true"] .accordion__icon::after {
@@ -76,4 +79,39 @@ button[aria-expanded="false"] .accordion__icon::after {
   transition: transform 0.3s;
   width: 30px;
   height: 30px;
+  padding: 20px 0px;
+}
+
+@media (max-width: 760px) {
+  .accordion-header {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    padding: 0 10px 0px 0px;
+  }
+
+  .accordion__text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .accordion__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .accordion-header {
+    font-size: 1rem;
+  }
+
+  .accordion__text {
+    font-size: 0.9rem;
+  }
+
+  .accordion__icon {
+    width: 15px;
+    height: 15px;
+  }
 }

@@ -27,4 +27,27 @@
   justify-content: flex-start;
   gap: 10px;
   align-items: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  .faq__title {
+    font-size: 2rem;
+  }
+
+  .accordion__icon-title {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .faq__title {
+    font-size: 1.8rem;
+  }
+
+  .accordion__icon-title {
+    width: 15px;
+    height: 15px;
+  }
 }
